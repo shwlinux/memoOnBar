@@ -18,6 +18,8 @@
 		08651CAE17E9F265006CA102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08651CAC17E9F265006CA102 /* InfoPlist.strings */; };
 		08651CB017E9F265006CA102 /* memoOnBarTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 08651CAF17E9F265006CA102 /* memoOnBarTests.h */; };
 		08651CB217E9F265006CA102 /* memoOnBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08651CB117E9F265006CA102 /* memoOnBarTests.m */; };
+		08651CD317EA9F43006CA102 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08651CD217EA9F43006CA102 /* Preferences.xib */; };
+		08651CD617EA9F5B006CA102 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08651CD517EA9F5B006CA102 /* PreferencesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +33,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0816377B17F9AA66001C00E0 /* memoOnBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = memoOnBar.entitlements; sourceTree = "<group>"; };
 		08651C8217E9F265006CA102 /* memoOnBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoOnBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08651C8617E9F265006CA102 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		08651C8917E9F265006CA102 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		08651C8A17E9F265006CA102 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		08651C8B17E9F265006CA102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		08651C8E17E9F265006CA102 /* memoOnBar-Info.plist */ = {isa = PBXFileReference; path = "memoOnBar-Info.plist"; sourceTree = "<group>"; };
+		08651C8E17E9F265006CA102 /* memoOnBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoOnBar-Info.plist"; sourceTree = "<group>"; };
 		08651C9017E9F265006CA102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08651C9217E9F265006CA102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		08651C9417E9F265006CA102 /* memoOnBar-Prefix.pch */ = {isa = PBXFileReference; path = "memoOnBar-Prefix.pch"; sourceTree = "<group>"; };
+		08651C9417E9F265006CA102 /* memoOnBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memoOnBar-Prefix.pch"; sourceTree = "<group>"; };
 		08651C9617E9F265006CA102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		08651C9817E9F265006CA102 /* memoOnBarAppDelegate.h */ = {isa = PBXFileReference; path = memoOnBarAppDelegate.h; sourceTree = "<group>"; };
+		08651C9817E9F265006CA102 /* memoOnBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoOnBarAppDelegate.h; sourceTree = "<group>"; };
 		08651C9917E9F265006CA102 /* memoOnBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoOnBarAppDelegate.m; sourceTree = "<group>"; };
 		08651C9C17E9F265006CA102 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		08651CA317E9F265006CA102 /* memoOnBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoOnBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08651CA417E9F265006CA102 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		08651CAB17E9F265006CA102 /* memoOnBarTests-Info.plist */ = {isa = PBXFileReference; path = "memoOnBarTests-Info.plist"; sourceTree = "<group>"; };
+		08651CAB17E9F265006CA102 /* memoOnBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoOnBarTests-Info.plist"; sourceTree = "<group>"; };
 		08651CAD17E9F265006CA102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08651CAF17E9F265006CA102 /* memoOnBarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoOnBarTests.h; sourceTree = "<group>"; };
 		08651CB117E9F265006CA102 /* memoOnBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoOnBarTests.m; sourceTree = "<group>"; };
+		08651CD217EA9F43006CA102 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		08651CD417EA9F5B006CA102 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		08651CD517EA9F5B006CA102 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0816377917F9AA3E001C00E0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		08651C7717E9F264006CA102 = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +128,12 @@
 		08651C8C17E9F265006CA102 /* memoOnBar */ = {
 			isa = PBXGroup;
 			children = (
+				0816377B17F9AA66001C00E0 /* memoOnBar.entitlements */,
+				0816377917F9AA3E001C00E0 /* New Group */,
+				08651CD117EA9F2F006CA102 /* Resources */,
+				08651CCE17EA9E8F006CA102 /* preferences */,
 				08651C9817E9F265006CA102 /* memoOnBarAppDelegate.h */,
 				08651C9917E9F265006CA102 /* memoOnBarAppDelegate.m */,
-				08651C9B17E9F265006CA102 /* MainMenu.xib */,
 				08651C8D17E9F265006CA102 /* Supporting Files */,
 			);
 			path = memoOnBar;
@@ -152,6 +168,24 @@
 				08651CAC17E9F265006CA102 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08651CCE17EA9E8F006CA102 /* preferences */ = {
+			isa = PBXGroup;
+			children = (
+				08651CD417EA9F5B006CA102 /* PreferencesController.h */,
+				08651CD517EA9F5B006CA102 /* PreferencesController.m */,
+			);
+			name = preferences;
+			sourceTree = "<group>";
+		};
+		08651CD117EA9F2F006CA102 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08651C9B17E9F265006CA102 /* MainMenu.xib */,
+				08651CD217EA9F43006CA102 /* Preferences.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +261,7 @@
 				08651C9117E9F265006CA102 /* InfoPlist.strings in Resources */,
 				08651C9717E9F265006CA102 /* Credits.rtf in Resources */,
 				08651C9D17E9F265006CA102 /* MainMenu.xib in Resources */,
+				08651CD317EA9F43006CA102 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +299,7 @@
 			files = (
 				08651C9317E9F265006CA102 /* main.m in Sources */,
 				08651C9A17E9F265006CA102 /* memoOnBarAppDelegate.m in Sources */,
+				08651CD617EA9F5B006CA102 /* PreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +405,7 @@
 		08651CB617E9F265006CA102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "memoOnBar/memoOnBar-Prefix.pch";
 				INFOPLIST_FILE = "memoOnBar/memoOnBar-Info.plist";
@@ -380,6 +417,7 @@
 		08651CB717E9F265006CA102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "memoOnBar/memoOnBar-Prefix.pch";
 				INFOPLIST_FILE = "memoOnBar/memoOnBar-Info.plist";
@@ -435,6 +473,7 @@
 				08651CB717E9F265006CA102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08651CB817E9F265006CA102 /* Build configuration list for PBXNativeTarget "memoOnBarTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +482,7 @@
 				08651CBA17E9F265006CA102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
